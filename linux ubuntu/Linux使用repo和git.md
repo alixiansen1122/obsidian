@@ -7,15 +7,16 @@ ls -la  **详细列出当前目录下的所有文件和文件夹（包括隐藏�
 		             KexAlgorithms +diffie-hellman-group1-sha1
 		  HostKeyAlgorithms +ssh-rsa
 		    PubkeyAcceptedKeyTypes +ssh-rsa
-		User huzhongye
+		User shishimao
 		Port 29418
 		Hostname  192.168.110.50
 		Host 192.168.110.50
 		             KexAlgorithms +diffie-hellman-group1-sha1
 		  HostKeyAlgorithms +ssh-rsa
 		    PubkeyAcceptedKeyTypes +ssh-rsa
-		User huzhongye
+		User shishimao
 		Port 29418
 ssh-keygen -t rsa -b 4096 -C "shishimao@sikey.com.cn"
 cat id_rsa.pub
+~/repo init -u ssh://gerrit.sikey.com.cn:29418/git/platform/manifest -q -b sikey_master -m sikey/T553U_MASTER_20251218.xml   路径调用repo
 ![[Pasted image 20260414190031.png]]
